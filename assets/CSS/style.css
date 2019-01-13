@@ -30,7 +30,7 @@ p{
 	padding: 5px;
 }
 .start{
-	height:105px;
+	height:95px;
     width:300px;
     display: inline-block;
     text-align: center;
@@ -46,7 +46,7 @@ p{
 }
 .result{
 	width:100px;
-	height: 100px;
+	height: 80px;
 	background-color: #49E6D6;
 	margin-left: 160px;
     margin-top:-90px;
@@ -69,7 +69,7 @@ h5{
 }
 .addition{
 	width:180px;
-	height:70px;
+	height:50px;
 	background-color: #12B5A2;
 	font-size: 30px;
     color: white;
