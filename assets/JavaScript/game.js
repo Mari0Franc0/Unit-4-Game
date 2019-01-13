@@ -9,7 +9,7 @@ var red = Math.floor((Math.random()* 12) + 1);
 var blue = Math.floor((Math.random()* 12) + 1);
 var yellow = Math.floor((Math.random()* 12) + 1);
 var green = Math.floor((Math.random()* 12) + 1);
-
+var audio = new Audio('https://files.slack.com/files-pri/T0J8XK2Q3-F0NHG3FDZ/download/raven.mp3');
 
 //updates addition in html
 var updateAddition = function (){
@@ -53,7 +53,7 @@ var logic = function (){
 $('.total').append(total);
 
 $('.addition').append(addition);
-//function
+
 
 $(document).ready(function(){
 	$('#red').click(function(){
